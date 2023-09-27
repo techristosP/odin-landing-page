@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: auto;
+}
+
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+.section {
+    /* width: auto; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* flex: 1 1 auto; */
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section.one {
+    background-color: #1f2937;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.one .item {
+
+}
+
+#hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#secondary, .subtxt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bt, .bluebox {
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: #f9faf8;
+}
+
+.section.two, .section.four {
+    /* display: flex; */
+    background-color: white;
+}
+
+.container2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container2 .item {
+    /* flex: 1 1 auto; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.media {
+    /* flex: 1 1 0; */
+    border-color: #3882f6;
+    border-radius: 10%;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+
+    /* justify-content: center; */
+}
+
+.subtxt {
+    /* flex: 1 1 0; */
+    /* justify-content: center; */
+    text-align: center;
+    color: #1f2937;
+}
+
+#infoheader {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section.three {
+    background-color: #e5e7eb;
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 38px;
+    font-style: italic;
+}
+
+#author {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: right;
+}
+
+.section.four {
+    /* position: relative; */
+}
+
+.bluebox {
+    margin: auto;
+    padding: 50px;
+    height: 50%;
+    width: 70%;
+}
