@@ -83,14 +83,25 @@ a:active { text-decoration: underline; }
     font-size: 18px;
 }
 
+.bt {
+    border-color: #3882f6;
+    font-size: 18px;
+    /* font-weight: bold; */
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .bt, .bluebox {
     background-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 8px;
     color: #f9faf8;
 }
 
 .section.two {
     padding-top: 0px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 .section.two, .section.four {
     /* display: flex; */
@@ -140,6 +151,8 @@ a:active { text-decoration: underline; }
 
 .section.three {
     background-color: #e5e7eb;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 #quote {
@@ -154,15 +167,32 @@ a:active { text-decoration: underline; }
     text-align: right;
 }
 
-/* .section.four {
-    
-} */
+.section.four {
+    padding-left: 160px;
+    padding-right: 160px;
+}
 
 .bluebox {
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-    padding: 50px;
+    padding: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
     height: 50%;
     width: 70%;
+    padding: auto;
+}
+
+.bluebox p {
+    font-size: 20px;
+    margin: 2px;
+}
+
+.bluebox .bt {
+    border-color: #f9faf8;
+    border-width: 2px;
+    margin-top: 15px;
 }
 
 .footer {
